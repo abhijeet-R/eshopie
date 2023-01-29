@@ -1,0 +1,42 @@
+.head{
+    background-color: black;
+    color: white ;
+    margin: 0px;
+    text-align: center;
+    padding: 4px;
+}
+.navbar{
+    background-color: black;
+    border-radius: 30px;
+    margin: 0px 5px 0px 5px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 13px 20px;
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+#login{
+    float: right;
+}
+.search{
+    float:right;
+    color: white;
+    padding: 12px 60px;
+}
+.search input{
+    padding: 3px 14px ;
+    border-radius: 14px;
+}
+.search button{
+    background-color: black;
+    color: white;
+    
+}

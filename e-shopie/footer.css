@@ -1,0 +1,27 @@
+.foot{
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    justify-content: left;
+    background-color: black;
+    color: #adadad;
+    border: 10px;
+    margin: 0px;
+}
+.footrow{
+    padding: 20px;
+}
+.cr{
+    border: 0px;
+    margin: 0px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: #adadad;
+}
+.cr i{
+    font-size: 20px;
+    padding: 10px 10px 0px 20px;
+    color: aliceblue;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body> <header>
+  <div class="head">
+    <h3>E-shopie</h3>
+  </div>
+  <nav class="navbar">
+    <ul>
+      <li><a href="e-shopie.html">Home</a></li>
+      <li><a href="aboutus.html">About</a></li>
+      <li><a href="contactus.html">Contact Us</a></li>
+      <div class="search">
+        <input type="text" placeholder="search" />
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </div>
+      <li id="login"><a href="login.html">Login</a></li>
+    </ul>
+  </nav>
+</header>
+    <div class="container">
+        <form action="action_page.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name...">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+          <label for="country">Country</label>
+          <input type="text" class="state" id="state"placeholder="your state...">
+          <label for="contact">contact number</label>
+          <input type="text" class="state" id="state"placeholder="your contact number...">
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+</body>
+</html>
